@@ -25,12 +25,12 @@
         - do first comment on given set of youtube channels when they uploads a new video
 ## ScreenShots
 - ### Home Menu
-   - ![alt text](https://github.com/ashok020/online-code-editor/blob/master/Screenshots/login.png?raw=true)
+   - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/home.png)
 - ### Simple Tools
-   - ![alt text](https://github.com/ashok020/online-code-editor/blob/master/Screenshots/login.png?raw=true)
+   - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/simple-tools.png)
  - ### Random Comment Picker 
-    - ![alt text](https://github.com/ashok020/online-code-editor/blob/master/Screenshots/home.png?raw=true)
+    - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/random-comment.png)
  - ### Comment Search 
-    - ![alt text](https://github.com/ashok020/online-code-editor/blob/master/Screenshots/home.png?raw=true)
+    - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/search-comment.png)
 - ### Subtitle list 
-    - ![alt text](https://github.com/ashok020/online-code-editor/blob/master/Screenshots/home.png?raw=true)
+    - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/simple-tools.png)
