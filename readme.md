@@ -33,4 +33,4 @@
  - ### Comment Search 
     - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/search-comment.png)
 - ### Subtitle list 
-    - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/simple-tools.png)
+    - ![alt text](https://github.com/ashok020/Youtube_Utility_Tools/blob/master/screenshots/subtitle.png)
