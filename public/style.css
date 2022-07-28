@@ -190,3 +190,30 @@ a {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar
+  {
+    font-size: 15px;
+  }
+  .container-block
+  {
+    font-size: 14px;
+  }
+  .thumbnail
+  {
+    font-size: 12px;
+  }
+  .comment
+  {
+    font-size: 12px;
+  }
+  .comment-user
+  {
+    font-size: 10px;
+  }
+  .url-input,.tag-input
+  {
+    font-size: 13px;
+  }
+}
