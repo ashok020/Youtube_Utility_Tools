@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Utility Tools</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo" onclick="openContainer()">Youtube Utilies Tools</div>
+    </nav>
+    <div class="container">
+     <div class="container-tools">
+         <div class="card" onclick="openSimpleContainer()">Simple Tools</div>
+         <div class="card" onclick="openAdvanceContainer()">Advance Tools</div>
+     </div>
+     
+     <div class="container-simple-tools">
+        <div class="card">Simple Tool 1</div>
+        <div class="card">Simple Tool 2</div>
+        <div class="card">Simple Tool 3</div>
+    </div>
+    
+    <div class="container-advance-tools">
+        <div class="card">Advance Tool 1</div>
+        <div class="card">Advance Tool 2</div>
+        <div class="card">Advance Tool 3</div>
+    </div>
+
+    <script>
+        const con_tools = document.querySelector('.container-tools');
+        const con_simple_tools = document.querySelector('.container-simple-tools');
+        const con_advance_tools = document.querySelector('.container-advance-tools');
+        var cur_active = con_tools;
+        cur_active.classList.toggle('container-active');
+        var duration = 1000;
+        openContainer();
+        function openContainer()
+        {
+            open(con_tools);
+        }
+        function openSimpleContainer()
+        {
+            open(con_simple_tools);
+        }
+        function openAdvanceContainer()
+        {
+            open(con_advance_tools);
+        }
+        function open(con)
+        {
+            if(cur_active != con)
+            {
+            
+                cur_active.classList.toggle('container-active');
+                con.classList.toggle('container-active');
+                cur_active = con;
+            }
+        }
+    </script>
+</body>
+</html>
